@@ -1,0 +1,19 @@
+.postsContainer {
+    width: 646px;
+    height: 1098px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+    padding: 5px;
+    background-color: rgb(26, 21, 21);
+}
+
+.posts {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: repeat(3, 1fr);
+}

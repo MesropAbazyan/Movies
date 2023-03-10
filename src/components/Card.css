@@ -1,0 +1,25 @@
+.cardContainer {
+    width: 200px;
+    height: 350px;
+    padding: 5px;
+    margin: 2px;
+    background-color: rgb(54, 46, 46);
+}
+
+.cardContainer:hover {
+    transform: scale(1.01);
+}
+
+.cardLink {
+    font-size: 14px;
+    word-break: break-all;
+    text-decoration: none;
+    text-align: center;
+    color: beige;
+}
+
+.cardRateAndDate {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
