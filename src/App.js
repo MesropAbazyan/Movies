@@ -9,7 +9,6 @@ import FilmPage6 from './pages/FilmPage6';
 import FilmPage7 from './pages/FilmPage7';
 import FilmPage8 from './pages/FilmPage8';
 import FilmPage9 from './pages/FilmPage9';
-import SearchPage from './pages/SearchPage';
 
 function App() {
   return (
@@ -25,7 +24,6 @@ function App() {
         <Route path="/filmPage7" element={<FilmPage7 />} />
         <Route path="/filmPage8" element={<FilmPage8 />} />
         <Route path="/filmPage9" element={<FilmPage9 />} />
-        <Route path="/searchPage" element={<SearchPage />} />
       </Routes>
     </BrowserRouter>
   );
