@@ -14,14 +14,17 @@ function Navbar() {
       </div>
 
       <div className="navbarRight">
-        <form className='searchForm' action="">
-          <label htmlFor="search">
-            <input 
-              id='search' className='searchInput' type="search" 
-              onChange={evt => setInputValue(evt.target.value)}
-            />
-            <button id='search' className='searchButton'>Search</button>
-          </label>
+        <form className='searchForm' onSubmit={evt => {
+          evt.preventDefault();
+        }}>
+          <input 
+            className='searchInput' type="text" 
+            value={inputValue}
+            onChange={evt => setInputValue(evt.target.value)}
+          />
+          <button className='searchButton'>
+            Search
+          </button>
         </form>
       </div>
     </div>
