@@ -1,0 +1,7 @@
+.filters {
+    font-size: 20px;
+    color: beige;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
