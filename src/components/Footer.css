@@ -1,4 +1,5 @@
 .footerContainer {
+    width: 100%;
     height: 30px;
     background: linear-gradient( rgb(26, 21, 21), grey,  rgb(26, 21, 21));
     color: beige;
@@ -6,4 +7,6 @@
     align-items: center;
     justify-content: center;
     font-weight: 500;
+    position: fixed;
+    bottom: 0;
 }
